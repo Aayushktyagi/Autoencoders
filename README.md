@@ -3,4 +3,4 @@
 How I learned Generative models
 
 
-#Step 1:Basic autoencoder using MNIST dataset 
+Step 1:Basic autoencoder using MNIST dataset 
