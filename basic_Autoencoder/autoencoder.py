@@ -18,8 +18,8 @@ num_input = 784
 n_layer_1 = 256
 n_layer_2 = 128
 n_layer_3 = 64
-n_epochs = 1000
-n_learning_rate = 0.001
+n_epochs = 1
+n_learning_rate = 0.01
 batch_size = 50
 display_step = 50
 
@@ -120,8 +120,12 @@ with tf.Session() as sess:
     plt.figure(figsize = (n,n))
     plt.imshow(canvas_orignal,origin = "upper" , cmap = "gray")
     plt.show()
+    plt.imsave("./Results/Results_canvas_orignal"+".png",canvas_orignal)
+    #plt.savefig("./Results/Results_canvas_orignal.png")
 
     print("Reconstructed Images :")
     plt.figure(figsize = (n,n))
     plt.imshow(canvas_recon,origin = "upper" , cmap = 'gray')
     plt.show()
+    plt.imsave("./Results/Results_canvas_recon"+".png",canvas_recon)
+    # plt.savefig("./Results/Results_canvas_recon.png")
