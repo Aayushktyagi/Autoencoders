@@ -11,3 +11,6 @@ How I learned Generative models
  
   
   ![Orignal image](https://github.com/Aayushktyagi/Generative_models/blob/master/basic_Autoencoder/Results/Results_canvas_orignal.png)
+
+  - Reconstructed image
+  ![Reconstructed image]()
