@@ -10,9 +10,9 @@ How I learned Generative models
   - orignal image 
  
   
-  ![Orignal image](https://github.com/Aayushktyagi/Generative_models/blob/master/basic_Autoencoder/Results/Results_canvas_orignal.png)
+  ![Orignal image](https://github.com/Aayushktyagi/Generative_models/blob/master/basic_Autoencoder/Results/Results_canvas_orignals.png)
 
   - Reconstructed image
   
   
-  ![Reconstructed image](https://github.com/Aayushktyagi/Generative_models/blob/master/basic_Autoencoder/Results/Results_canvas_recon.png)
+  ![Reconstructed image](https://github.com/Aayushktyagi/Generative_models/blob/master/basic_Autoencoder/Results/Results_canvas_recons.png)
