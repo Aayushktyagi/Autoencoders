@@ -2,7 +2,6 @@
 Autoencoder implementation using tensorflow
 '''
 
-
 import tensorflow as tf
 import numpy as np
 import matplotlib.pyplot as plt
@@ -18,8 +17,8 @@ num_input = 784
 n_layer_1 = 256
 n_layer_2 = 128
 n_layer_3 = 64
-n_epochs = 1
-n_learning_rate = 0.01
+n_epochs = 1000
+n_learning_rate = 0.001
 batch_size = 50
 display_step = 50
 
@@ -28,12 +27,12 @@ X = tf.placeholder(tf.float32 , [None,num_input])
 
 #weights
 weights = {
-    'encoder_h1':tf.Variable(tf.random_normal([num_input,n_layer_1])),
-    'encoder_h2':tf.Variable(tf.random_normal([n_layer_1,n_layer_2])),
-    'encoder_h3':tf.Variable(tf.random_normal([n_layer_2 , n_layer_3])),
-    'decoder_h1':tf.Variable(tf.random_normal([n_layer_3,n_layer_2])),
-    'decoder_h2':tf.Variable(tf.random_normal([n_layer_2,n_layer_1])),
-    'decoder_h3':tf.Variable(tf.random_normal([n_layer_1,num_input]))
+    'encoder_h1':tf.Variable(tf.truncated_normal([num_input,n_layer_1], stddev=0.01)),
+    'encoder_h2':tf.Variable(tf.truncated_normal([n_layer_1,n_layer_2], stddev=0.01)),
+    'encoder_h3':tf.Variable(tf.truncated_normal([n_layer_2 , n_layer_3], stddev=0.01)),
+    'decoder_h1':tf.Variable(tf.truncated_normal([n_layer_3,n_layer_2], stddev=0.01)),
+    'decoder_h2':tf.Variable(tf.truncated_normal([n_layer_2,n_layer_1], stddev=0.01)),
+    'decoder_h3':tf.Variable(tf.truncated_normal([n_layer_1,num_input], stddev=0.01))
 }
 bias = {
     'encoder_b1':tf.Variable(tf.zeros([n_layer_1])),
