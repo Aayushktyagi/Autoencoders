@@ -23,8 +23,8 @@ Few autoencoder arhitectures are explored in doing the same task.
  
  -Single layer Autoencoder
   - Inoder to run single layer Autoencoder uncomment line 8(import autoenocder class) and line 32(getEncodedImage)
-  -Comment(line 9)
-  -_python3 main.py_
+  - Comment(line 9)
+  - _python3 main.py_
   
  -Multilayer autoencoder
   - _python3 main.py_
