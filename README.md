@@ -25,7 +25,9 @@ Few autoencoder arhitectures are explored in doing the same task.
   - Inoder to run single layer Autoencoder uncomment line 8(import autoenocder class) and line 32(getEncodedImage)
   -Comment(line 9)
   -_python3 main.py_
- -Multilayer autoencoder(python3 main.py)
+  
+ -Multilayer autoencoder
   - _python3 main.py_
- -Convolutional Autoencoder(python3 main_cnn.py)
-  - __python3 main_cnn.py__
+  
+ -Convolutional Autoencoder
+  - _python3 main_cnn.py_
