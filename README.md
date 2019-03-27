@@ -31,3 +31,4 @@ Few autoencoder arhitectures are explored in doing the same task.
   
  -Convolutional Autoencoder
   - _python3 main_cnn.py_
+  ![Anti-Rotate-Autoencoder image](https://github.com/Aayushktyagi/Autoencoders/blob/master/Anti-rotate_Autoencoder/Result/Anti-rotate-result.png)
