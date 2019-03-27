@@ -28,6 +28,7 @@ Few autoencoder arhitectures are explored in doing the same task.
   
  -Multilayer autoencoder
   - _python3 main.py_
+  ![Anti-Rotate-Autoencoder image](https://github.com/Aayushktyagi/Autoencoders/blob/master/Anti-rotate_Autoencoder/Result/Anti-rotate-autoencoder_mlp.png)
   
  -Convolutional Autoencoder
   - _python3 main_cnn.py_
